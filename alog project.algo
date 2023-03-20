@@ -1,0 +1,19 @@
+1. Initialize an empty string variable called 'sentence'
+2. Initialize integer variables called 'sentence_length', 'num_words', and 'num_vowels' to 0
+3. Initialize a boolean variable called 'end_of_sentence' to False
+4. Prompt the user to input a sentence and store it in 'sentence'
+5. Initialize an integer variable called 'index' to 0
+6. While 'end_of_sentence' is False:
+    a. If 'index' is equal to the length of 'sentence':
+        i. Set 'end_of_sentence' to True
+    b. Else:
+        i. Get the character at index 'index' in 'sentence'
+        ii. If the character is a vowel (i.e., 'a', 'e', 'i', 'o', 'u'):
+            1. Increment 'num_vowels' by 1
+        iii. If the character is a space (i.e., ' '):
+            1. Increment 'num_words' by 1
+        iv. Increment 'sentence_length' by 1
+        v. Increment 'index' by 1
+7. Increment 'num_words' by 1 (since the last word won't be counted by the space)
+8. Print 'sentence_length', 'num_words', and 'num_vowels'
+9. End the program
